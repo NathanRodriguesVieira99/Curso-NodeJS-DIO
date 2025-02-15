@@ -1,6 +1,4 @@
-import { Player } from "interfaces/characters";
-
-export interface Character extends Player {
+export interface Player {
   NOME: string;
   VELOCIDADE: number;
   MANOBRABILIDADE: number;

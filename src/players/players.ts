@@ -1,6 +1,7 @@
-import { Character } from "interfaces/characters";
+import { Player} from "interfaces/players";
 
- export const player1: Character = {
+// objetos que declaram os jogadores
+ export const player1: Player = {
   NOME: "Mario",
   VELOCIDADE: 4,
   MANOBRABILIDADE: 3,
@@ -8,7 +9,7 @@ import { Character } from "interfaces/characters";
   PONTOS: 0,
 };
 
-export const player2: Character = {
+export const player2: Player = {
   NOME: "Luigi",
   VELOCIDADE: 3,
   MANOBRABILIDADE: 4,
